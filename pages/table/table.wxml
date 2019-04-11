@@ -1,0 +1,10 @@
+<!--table.wxml-->
+<view class='list'>
+    <block wx:for='{{array}}' wx:for-item='array' wx:for-index='arrayin' wx:key='arraykey' >
+        <view class='box'>
+            <block wx:for='{{array}}' wx:for-item='array1' wx:for-index='arrayin1' wx:key='arraykey1' >
+                <text class='boxtxt'>{{array[arrayin1]}}</text>
+            </block>
+        </view>
+    </block>
+</view>
